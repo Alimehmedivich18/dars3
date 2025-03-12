@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+    height: 106px;
+    
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.navbar__colletion{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    align-items: center;
+}
+.nabar__logo{
+    flex: 1;
+}
+.rect{
+    width: 100%;
+    height: 170vh;
+  
+    padding: 50px;
+}
+.hero__wrapper{
+   display: flex
+}
+.hero__imge,
+.hero__context{
+    width: 50%;
+    
+}
+.hero__title{
+    font-size: 49px;
+    margin-bottom: 20px;
+}
+.hero__desc{
+    margin-bottom: 10px;
+}
+.wraper{
+    width: 80%;
+    height: 700px;
+    
+    margin: 20px auto;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.wraper__item{
+    width: 300px;
+    height: 300px;
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.card{
+    width: 270px;
+    height: 300px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding: 16px;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: .3s;
+}
+.card__body{
+    text-align: center;
+    
+}
+.card:hover img{
+    width: 150px;
+    height: 150px;
+}
+.button{
+    width: 140px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-top: 90px;
+}
+.historiy{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.house{
+    width: 400px;
+    height: 400px;
+    
+}
+.p{
+    margin-bottom: 10px;
+}
